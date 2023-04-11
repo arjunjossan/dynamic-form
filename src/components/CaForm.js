@@ -37,11 +37,11 @@ function CaForm() {
 		<h3>Dynamic Form</h3>
 	  <div class="mt-3">
   <label for="exampleFormControlInput1" class="form-label">Your Name</label>
-  <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name . . .  " />
+  <input type="text" class="form-control" id="exampleFormControlInput1" required placeholder="Name . . .  " />
 </div>
 <div class="mt-3">
   <label for="exampleFormControlInput1" class="form-label">Email address</label>
-  <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="name@example.com" />
+  <input type="email" class="form-control" id="exampleFormControlInput2" required placeholder="name@example.com" />
 </div>
 
 <div className='mt-3'>
@@ -59,7 +59,7 @@ function CaForm() {
 	<div className='col-2'>
 		<input type="text" class="form-control" id="exampleFormControlInput" value={countrycode} /></div>
 	<div className='col-10'>
-    <input type="number" class="form-control" id="exampleFormControlInput3" placeholder="1234567890" /></div>
+    <input type="number" class="form-control" required id="exampleFormControlInput3" placeholder="1234567890" /></div>
   </div>
   
 </div>
