@@ -44,14 +44,16 @@ function CaForm() {
   <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="name@example.com" />
 </div>
 
-<select onChange={setcountry} value={countrycode} class="form-select mt-3" aria-label="Default select example">
+<div className='mt-3'>
+<label for="exampleFormControlInput1" class="form-label">Select Country</label>
+<select onChange={setcountry} value={countrycode} class="form-select" aria-label="Default select example">
   <option value="+91">India</option>
   <option value="+61">Australia</option>
   <option value="+1">Canada</option>
   <option value="+44">England</option>
-</select>
+</select></div>
 
-<div class="mt-3">
+<div className="mt-3">
 	<label for="exampleFormControlInput1" class="form-label">Contact</label>
   <div className='row'>
 	<div className='col-2'>
